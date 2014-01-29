@@ -22,5 +22,29 @@ public class Mazzo {
 		return listaCarte.get(n);
 	}
 	
-
+	public int numeroCarte(){
+		return listaCarte.size();
+	}
+	
+	public void addCarta (Carta carta){
+		this.listaCarte.add(carta);
+	}
+	
+	public String toString(){
+		
+		StringBuilder build = new StringBuilder();
+		build.append("Questo  il Mazzo");
+		
+		build.append(this.nome);
+		build.append("/n");
+		
+		for(Carta carta:listaCarte){
+			build.append("---------");
+			build.append(carta.toString());
+			build.append("/n");
+			
+		}
+		
+		return build.toString();
+	}
 }
