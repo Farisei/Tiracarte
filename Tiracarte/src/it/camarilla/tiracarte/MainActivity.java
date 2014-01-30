@@ -4,7 +4,13 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
-public class Principale extends Activity {
+/*
+ * NON VOGLIO LEGGERE PIU' UNA CLASSE CON IL NOME PRINCIPALE!
+ * 
+ * Licio.
+ */
+
+public class MainActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
