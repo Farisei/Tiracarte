@@ -23,6 +23,6 @@ public class Carta {
 	}
 
 	public String toString(){
-		return "La Carta  "+this.getNome();
+		return "La Carta e' "+this.getNome();
 	}
 }
